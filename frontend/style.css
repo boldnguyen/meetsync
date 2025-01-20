@@ -1,0 +1,15 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 20px;
+}
+
+#app {
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+video {
+    width: 100%;
+    max-width: 400px;
+    margin-top: 20px;
+}

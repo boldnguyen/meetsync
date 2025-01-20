@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MeetSync</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div id="app">
+        <h1>MeetSync</h1>
+        <div id="create-room">
+            <input type="text" id="roomName" placeholder="Room Name">
+            <button onclick="createRoom()">Create Room</button>
+        </div>
+        <div id="join-room">
+            <input type="text" id="roomID" placeholder="Room ID">
+            <input type="text" id="userName" placeholder="Your Name">
+            <button onclick="joinRoom()">Join Room</button>
+        </div>
+        <div id="members"></div>
+        <video id="localVideo" autoplay muted></video>
+        <div id="remoteVideos"></div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
