@@ -9,8 +9,8 @@ import (
 )
 
 const (
-	cloudflareAPIURL = "https://api.cloudflare.com/client/v4/accounts/ba3c5007d3b4ab6bf0afce10debfd04a/calls/apps/79bcb59155bc29935f115711e3ac99c0"
-	cloudflareToken  = "guUy7uIegtBAywvfuoUPy-tGBZO1qCGbj4Gn6piN" // Thay bằng API Token mới của bạn
+	cloudflareAPIURL = "https://api.cloudflare.com/client/v4/accounts/ba3c5007d3b4ab6bf0afce10debfd04a/calls/apps/522a4982829211e2b4930b5788ad526d"
+	cloudflareToken  = "XgT5WXqSQCGNlCmj-Fw4YNMqapONysnul900UWns"
 )
 
 func CreateCloudflareRoom(roomName string) (string, error) {
